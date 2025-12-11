@@ -1,0 +1,1 @@
+import{Qa as s,ib as i,jb as a,zb as c}from"./chunk-HLBA6PII.js";var n=class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=s({type:e,selectors:[["app-critical-assets"]],decls:2,vars:0,template:function(t,r){t&1&&(i(0,"p"),c(1,"critical-assets works!"),a())},encapsulation:2})};export{n as CriticalAssets};

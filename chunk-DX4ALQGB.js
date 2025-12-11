@@ -1,0 +1,1 @@
+import{Qa as o,ib as s,jb as i,zb as n}from"./chunk-HLBA6PII.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-objectives"]],decls:2,vars:0,template:function(e,p){e&1&&(s(0,"p"),n(1,"objectives works!"),i())},encapsulation:2})};export{c as Objectives};
