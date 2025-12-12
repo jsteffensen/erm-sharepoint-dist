@@ -1,0 +1,1 @@
+import{Pb as n,Xa as o,tb as s,ub as i}from"./chunk-4ZPWDUXV.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-objectives"]],decls:2,vars:0,template:function(e,p){e&1&&(s(0,"p"),n(1,"objectives works!"),i())},encapsulation:2})};export{c as Objectives};

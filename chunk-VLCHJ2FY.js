@@ -1,1 +1,0 @@
-import{Hb as i,Ua as a,mb as t,nb as o}from"./chunk-73ZWXVFO.js";var r=class e{static \u0275fac=function(s){return new(s||e)};static \u0275cmp=a({type:e,selectors:[["app-risk-dashboards"]],decls:2,vars:0,template:function(s,d){s&1&&(t(0,"p"),i(1,"risk-dashboards works!"),o())},encapsulation:2})};export{r as RiskDashboards};
