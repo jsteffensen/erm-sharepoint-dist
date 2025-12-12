@@ -1,1 +1,0 @@
-import{Db as r,Ra as n,jb as p,kb as o}from"./chunk-6GXVRHMF.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-help-center"]],decls:2,vars:0,template:function(e,s){e&1&&(p(0,"p"),r(1,"help-center works!"),o())},encapsulation:2})};export{c as HelpCenter};

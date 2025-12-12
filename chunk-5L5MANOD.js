@@ -1,1 +1,0 @@
-import{Db as r,Ra as i,jb as n,kb as o}from"./chunk-6GXVRHMF.js";var s=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=i({type:t,selectors:[["app-risk-reporting"]],decls:2,vars:0,template:function(e,a){e&1&&(n(0,"p"),r(1,"risk-reporting works!"),o())},encapsulation:2})};export{s as RiskReporting};

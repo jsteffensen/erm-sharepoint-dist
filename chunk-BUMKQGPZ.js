@@ -1,0 +1,1 @@
+import{Hb as i,Ua as s,mb as n,nb as a}from"./chunk-73ZWXVFO.js";var r=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=s({type:t,selectors:[["app-risk-treatments"]],decls:2,vars:0,template:function(e,o){e&1&&(n(0,"p"),i(1,"risk-treatments works!"),a())},encapsulation:2})};export{r as RiskTreatments};
