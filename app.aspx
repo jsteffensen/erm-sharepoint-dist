@@ -42,5 +42,5 @@
 <link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-IJH6CCBI.js">
 <link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-RHDHBQUS.js">
 <link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-SS5N72UV.js">
-<script src="https://collab.napma.nato.int/grc/SiteAssets/app/main-K3YF2QMX.js" type="module"></script></body>
+<script src="https://collab.napma.nato.int/grc/SiteAssets/app/main-YXYOH4HW.js" type="module"></script></body>
 </html>
