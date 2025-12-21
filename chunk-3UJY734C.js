@@ -1,1 +1,0 @@
-import{Vb as i,_a as s,wb as n,xb as a}from"./chunk-NEI3LNGJ.js";var r=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=s({type:t,selectors:[["app-risk-treatments"]],decls:2,vars:0,template:function(e,o){e&1&&(n(0,"p"),i(1,"risk-treatments works!"),a())},encapsulation:2})};export{r as RiskTreatments};

@@ -1,1 +1,0 @@
-import{Vb as r,_a as n,wb as p,xb as o}from"./chunk-NEI3LNGJ.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-help-center"]],decls:2,vars:0,template:function(e,s){e&1&&(p(0,"p"),r(1,"help-center works!"),o())},encapsulation:2})};export{c as HelpCenter};
