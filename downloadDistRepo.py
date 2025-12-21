@@ -51,30 +51,12 @@ for i, file in enumerate(files_to_download, 1):
     
     print(f'[{i}/{len(files_to_download)}] Downloading {file}...')
     
-    max_retries = 3
-    retry_delays = [0, 10, 30]  # No delay on first attempt, 10s on retry 1, 30s on retry 2
-    
-    success = False
-    for attempt in range(max_retries):
-        try:
-            if attempt > 0:
-                print(f'Retrying in {retry_delays[attempt]} seconds... (attempt {attempt + 1}/{max_retries})')
-                time.sleep(retry_delays[attempt])
-            
-            urllib.request.urlretrieve(url, output_path)
-            print(f'Saved to {output_path}')
-            success = True
-            downloaded_count += 1
-            break
-        except Exception as e:
-            print(f'Error downloading {file}: {e}')
-    
-    # If all retries failed, create an empty file
-    if not success:
-        print(f'Failed to download {file} after {max_retries} attempts. Creating empty file.')
-        with open(output_path, 'w') as f:
-            pass  # Creates an empty file
-        print(f'Created empty file at {output_path}')
+    try:
+        urllib.request.urlretrieve(url, output_path)
+        print(f'Saved to {output_path}')
+        downloaded_count += 1
+    except Exception as e:
+        print(f'ERROR: Failed to download {file}: {e}')
     
     # Add a small delay between downloads to avoid rate limiting
     if i < len(files_to_download):
