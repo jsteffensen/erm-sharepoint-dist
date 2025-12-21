@@ -28,6 +28,12 @@ function clearDirectory() {
                 return;
             }
             
+            // Skip .py files
+            if (path.extname(item).toLowerCase() === '.py') {
+                console.log(`○ Preserving: ${item}`);
+                return;
+            }
+            
             const itemPath = path.join(targetDirectory, item);
             const stats = fs.statSync(itemPath);
             
