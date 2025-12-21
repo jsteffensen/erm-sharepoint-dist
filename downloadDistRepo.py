@@ -62,6 +62,6 @@ for i, file in enumerate(files_to_download, 1):
     if i < len(files_to_download):
         time.sleep(0.5)
 
-print(f'\nDownload process completed!')-e 
+print(f'\nDownload process completed!')
 print(f'Downloaded: {downloaded_count} files')
 print(f'Skipped: {skipped_count} files (already existed)')
