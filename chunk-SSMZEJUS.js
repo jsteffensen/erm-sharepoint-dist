@@ -1,0 +1,1 @@
+import{Xb as r,ab as n,yb as p,zb as o}from"./chunk-25ZSCIWA.js";var a=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-help-center"]],decls:2,vars:0,template:function(e,l){e&1&&(p(0,"p"),r(1,"help-center works!"),o())},encapsulation:2})};export{a as HelpCenter};
