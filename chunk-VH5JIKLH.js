@@ -1,1 +1,0 @@
-import{Ab as i,Bb as a,Zb as n,cb as s}from"./chunk-AEOW2BZV.js";var c=class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=s({type:e,selectors:[["app-critical-assets"]],decls:2,vars:0,template:function(t,r){t&1&&(i(0,"p"),n(1,"critical-assets works!"),a())},encapsulation:2})};export{c as CriticalAssets};
