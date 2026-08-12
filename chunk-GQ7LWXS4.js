@@ -1,1 +1,0 @@
-import{Ab as n,Yb as i,bb as s,zb as o}from"./chunk-DC574OAK.js";var p=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=s({type:t,selectors:[["app-top-10-risks"]],decls:2,vars:0,template:function(e,r){e&1&&(o(0,"p"),i(1,"top-10-risks works!"),n())},encapsulation:2})};export{p as Top10Risks};
