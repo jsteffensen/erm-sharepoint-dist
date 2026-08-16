@@ -36,13 +36,11 @@
 <link rel="stylesheet" href="https://collab.napma.nato.int/grc/SiteAssets/app/styles-KKRRZVXW.css" media="print" onload="this.media='all'"><noscript>
 <link rel="stylesheet" href="https://collab.napma.nato.int/grc/SiteAssets/app/styles-KKRRZVXW.css"></noscript></head>
 <body>
-<form id="grcForm" runat="server">
 <SharePoint:FormDigest runat="server" />
   <app-root></app-root>
 
 <link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-JFBNHPF7.js">
 <link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-CPFR4GCD.js">
 <link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-6SIMKND5.js">
-<script src="https://collab.napma.nato.int/grc/SiteAssets/app/main-CRQSBGOG.js" type="module"></script></form>
-</body>
+<script src="https://collab.napma.nato.int/grc/SiteAssets/app/main-CRQSBGOG.js" type="module"></script></body>
 </html>
