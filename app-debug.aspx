@@ -36,6 +36,51 @@
 <link rel="stylesheet" href="https://collab.napma.nato.int/grc/SiteAssets/app/styles-KKRRZVXW.css" media="print" onload="this.media='all'"><noscript>
 <link rel="stylesheet" href="https://collab.napma.nato.int/grc/SiteAssets/app/styles-KKRRZVXW.css"></noscript></head>
 <body>
+<script>
+(function() {
+  var pre = document.createElement('pre');
+  pre.id = 'ng-debug-log';
+  pre.style.cssText = 'position:fixed;bottom:0;left:0;right:0;max-height:40vh;margin:0;padding:12px;overflow:auto;background:#1a1a1a;color:#ff8080;font:12px/1.5 Consolas,Monaco,monospace;white-space:pre-wrap;word-break:break-word;z-index:999999;border-top:3px solid #ff0000;';
+  pre.textContent = '[debug] waiting for errors...\n';
+
+  function attach() {
+    if (document.body) {
+      document.body.appendChild(pre);
+    } else {
+      document.addEventListener('DOMContentLoaded', function() { document.body.appendChild(pre); });
+    }
+  }
+  attach();
+
+  function log(label, detail) {
+    var line = '[' + new Date().toISOString() + '] ' + label;
+    if (detail) line += '\n' + detail;
+    pre.textContent += line + '\n\n';
+  }
+
+  window.addEventListener('error', function(e) {
+    if (e.target && e.target !== window && (e.target.tagName === 'SCRIPT' || e.target.tagName === 'LINK')) {
+      log('RESOURCE LOAD FAILED: ' + (e.target.src || e.target.href));
+    } else {
+      var err = e.error;
+      log('JS ERROR: ' + e.message, (err && err.stack) ? err.stack : (e.filename + ':' + e.lineno + ':' + e.colno));
+    }
+  }, true);
+
+  window.addEventListener('unhandledrejection', function(e) {
+    var reason = e.reason;
+    log('UNHANDLED PROMISE REJECTION: ' + (reason && reason.message ? reason.message : String(reason)), reason && reason.stack);
+  });
+
+  var origConsoleError = console.error.bind(console);
+  console.error = function() {
+    var args = Array.prototype.slice.call(arguments);
+    log('console.error: ' + args.map(function(a){ return (a && a.stack) ? a.stack : String(a); }).join(' '));
+    origConsoleError.apply(console, args);
+  };
+})();
+</script>
+
 <form id="grcForm" runat="server">
 <SharePoint:FormDigest runat="server" />
   <app-root></app-root>
