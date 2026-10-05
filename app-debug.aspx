@@ -84,10 +84,10 @@
 <SharePoint:FormDigest runat="server" />
   <app-root></app-root>
 
-<link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-PHTNFB5I.js">
-<link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-WOCYRYJC.js">
-<link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-DWK6QXHC.js">
-<link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-TESLAQE7.js">
-<link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-FUQ55TB6.js">
-<script src="https://collab.napma.nato.int/grc/SiteAssets/app/main-PT5JWKYN.js" type="module"></script></body>
+<link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-PUD4X2EE.js">
+<link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-KF4N3FA6.js">
+<link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-BU66K7CU.js">
+<link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-TUDGZ4YM.js">
+<link rel="modulepreload" href="https://collab.napma.nato.int/grc/SiteAssets/app/chunk-RUNKS36W.js">
+<script src="https://collab.napma.nato.int/grc/SiteAssets/app/main-R63Q2G2A.js" type="module"></script></body>
 </html>
